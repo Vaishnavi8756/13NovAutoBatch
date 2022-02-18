@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Login test case is passed]]>
+    </line>
+    <line>
+      <![CDATA[product add to cart successfully]]>
+    </line>
+    <line>
+      <![CDATA[LogOut test case is passed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-02-17T14:31:27 IST" name="Suite" finished-at="2022-02-17T14:31:54 IST" duration-ms="27501">
+    <groups>
+    </groups>
+    <test started-at="2022-02-17T14:31:27 IST" name="ChromeTest" finished-at="2022-02-17T14:31:54 IST" duration-ms="27501">
+      <class name="com.sauceDemo.TestClasses.TC03VerifyLogOutFunctionality">
+        <test-method is-config="true" signature="setUpMethod(java.lang.String)[pri:0, instance:com.sauceDemo.TestClasses.TC03VerifyLogOutFunctionality@28f3b248]" started-at="2022-02-17T14:31:27 IST" name="setUpMethod" finished-at="2022-02-17T14:31:54 IST" duration-ms="26898" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="logoutfunctionality()[pri:0, instance:com.sauceDemo.TestClasses.TC03VerifyLogOutFunctionality@28f3b248]" started-at="2022-02-17T14:31:54 IST" name="logoutfunctionality" finished-at="2022-02-17T14:31:54 IST" duration-ms="214" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[LogOut test case is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutfunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sauceDemo.TestClasses.TC03VerifyLogOutFunctionality@28f3b248]" started-at="2022-02-17T14:31:54 IST" name="tearDown" finished-at="2022-02-17T14:31:54 IST" duration-ms="349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sauceDemo.TestClasses.TC03VerifyLogOutFunctionality -->
+      <class name="com.sauceDemo.TestClasses.TC02VerifyAddToCartFunctionality">
+        <test-method is-config="true" signature="setUpMethod(java.lang.String)[pri:0, instance:com.sauceDemo.TestClasses.TC02VerifyAddToCartFunctionality@1b1426f4]" started-at="2022-02-17T14:31:27 IST" name="setUpMethod" finished-at="2022-02-17T14:31:49 IST" duration-ms="22013" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="addtoCartFunctionality()[pri:0, instance:com.sauceDemo.TestClasses.TC02VerifyAddToCartFunctionality@1b1426f4]" started-at="2022-02-17T14:31:49 IST" name="addtoCartFunctionality" finished-at="2022-02-17T14:31:52 IST" duration-ms="3367" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[product add to cart successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addtoCartFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sauceDemo.TestClasses.TC02VerifyAddToCartFunctionality@1b1426f4]" started-at="2022-02-17T14:31:52 IST" name="tearDown" finished-at="2022-02-17T14:31:53 IST" duration-ms="544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sauceDemo.TestClasses.TC02VerifyAddToCartFunctionality -->
+      <class name="com.sauceDemo.TestClasses.TC01VerifyLoginFunctionality">
+        <test-method is-config="true" signature="setUpMethod(java.lang.String)[pri:0, instance:com.sauceDemo.TestClasses.TC01VerifyLoginFunctionality@1e6454ec]" started-at="2022-02-17T14:31:27 IST" name="setUpMethod" finished-at="2022-02-17T14:31:48 IST" duration-ms="21867" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="verityLogin()[pri:0, instance:com.sauceDemo.TestClasses.TC01VerifyLoginFunctionality@1e6454ec]" started-at="2022-02-17T14:31:48 IST" name="verityLogin" finished-at="2022-02-17T14:31:49 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login test case is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verityLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sauceDemo.TestClasses.TC01VerifyLoginFunctionality@1e6454ec]" started-at="2022-02-17T14:31:49 IST" name="tearDown" finished-at="2022-02-17T14:31:49 IST" duration-ms="536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sauceDemo.TestClasses.TC01VerifyLoginFunctionality -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
